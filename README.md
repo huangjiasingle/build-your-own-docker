@@ -35,11 +35,10 @@
   		- 自己动手写UnionFS 例子
 
 - 构造简单容器
-	- 使用Namespace 创建隔离的容器
-		- PID 隔离的容器
-		- UID 用户隔离
-		- Network 隔离
-		- Mount 隔离
+	- [构造一个run版本的简单容器](2/2.1.md)
+		- Linux proc 文件系统介绍
+		- 实现 run 命令
+		- 小结
 	- 使用Cgroups 限制容器资源使用
 		- Memory 限制
 		- CPU 限制
